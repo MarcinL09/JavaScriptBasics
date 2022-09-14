@@ -17,3 +17,20 @@ function isThisMyName(name) {
 }
 isThisMyName('Adam');
 
+// 3. Implement the isThisBoolean function that returns true if provided with a boolean.
+
+function isThisBoolean(){
+
+}
+isThisBoolean(true); //true
+isThisBoolean(false); // true
+isThisBoolean('true'); // false
+
+// 5. Implement the getCircleArea function
+function getCircleArea(radius) {
+    return Math.PI * radius ** 2;
+}
+const radius = 5;
+const area = getCircleArea(radius);
+console.log(Math.PI)
+console.log(area); // 78.53981633974483
