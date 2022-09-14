@@ -32,5 +32,11 @@ function getCircleArea(radius) {
 }
 const radius = 5;
 const area = getCircleArea(radius);
-console.log(Math.PI)
 console.log(area); // 78.53981633974483
+
+// 3. Implement the getCirclesAreaSum function that calls the getCircleArea function
+function getCirclesAreaSum(radiusFirst, radiusSecond) {
+    return Math.PI * radiusFirst ** 2 + Math.PI * radiusSecond ** 2;
+}
+const circlesAreaSum = getCirclesAreaSum(5, 10);
+console.log(circlesAreaSum); // 392.69908169872417
