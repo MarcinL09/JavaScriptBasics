@@ -15,7 +15,8 @@ function isThisMyName(name) {
     //     return false;
     // }
 }
-isThisMyName('Adam');
+const isMyName = isThisMyName('Adam');
+console.log(isMyName);
 
 // 3. Implement the isThisBoolean function that returns true if provided with a boolean.
 
