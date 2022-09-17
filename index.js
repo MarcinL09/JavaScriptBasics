@@ -89,3 +89,12 @@ const quarterOf = (month) => {
 
 }
 console.log(quarterOf(month));
+
+const color = 'blue';
+const newColor = 'green';
+
+if (color == newColor) {
+    console.log('colors are the same');
+} else {
+    console.log('colors are not the same');
+}
