@@ -93,8 +93,19 @@ console.log(quarterOf(month));
 const color = 'blue';
 const newColor = 'green';
 
-if (color == newColor) {
+if (color === newColor) {
     console.log('colors are the same');
 } else {
     console.log('colors are not the same');
+}
+
+const x = 50;
+const y = 100;
+
+if (x > y) {
+    console.log('x > y')
+} else if (x === y) {
+    console.log('x = y')
+} else {
+    console.log('x < y')
 }
