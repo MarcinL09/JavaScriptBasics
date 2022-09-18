@@ -24,10 +24,10 @@ console.log(isMyName);
 
 // 3. Implement the isThisBoolean function that returns true if provided with a boolean.
 
-function isThisBoolean(boolean){
-    if (boolean === true) {
+function isThisBoolean(bool){
+    if (bool === true) {
         return true;
-    } else if (boolean === false) {
+    } else if (bool === false) {
         return true;
     } else {
         return false;
