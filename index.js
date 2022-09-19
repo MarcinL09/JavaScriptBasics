@@ -36,7 +36,7 @@ const boolean3 =isThisBoolean('true'); // false
 console.log(boolean3)
 
 // 5. Implement the getCircleArea function
-function getCircleArea(radius) {
+function getCircleArea() {
     return Math.PI * radius ** 2;
 }
 const radius = 5;
