@@ -9,11 +9,6 @@ console.log(greeting); // Hi, “John Smith”. What's up?
 // return false.
 function isThisMyName(name) {
     return name === 'Marcin';
-    // if (name === 'Marcin') {
-    //     return true;
-    // } else {
-    //     return false;
-    // }
 }
 let isMyName = isThisMyName('Adam');
 console.log(isMyName);
@@ -24,10 +19,10 @@ console.log(isMyName);
 
 // 3. Implement the isThisBoolean function that returns true if provided with a boolean.
 
-function isThisBoolean(bool){
-    if (bool === true) {
+function isThisBoolean(isTrue){
+    if (isTrue === true) {
         return true;
-    } else if (bool === false) {
+    } else if (isTrue === false) {
         return true;
     } else {
         return false;
@@ -49,11 +44,14 @@ const area = getCircleArea(radius);
 console.log(area); // 78.53981633974483
 
 // 3. Implement the getCirclesAreaSum function that calls the getCircleArea function
-function getCirclesAreaSum(radiusFirst, radiusSecond) {
+function getCirclesAreaSum() {
+    function getCirclesArea(radiusFirst, radiusSecond) {
     return Math.PI * radiusFirst ** 2 + Math.PI * radiusSecond ** 2;
-}
-const circlesAreaSum = getCirclesAreaSum(5, 10);
-console.log(circlesAreaSum); // 392.69908169872417
+        }
+        return getCirclesArea;
+    }
+const getCirclesArea = getCirclesAreaSum();
+console.log(getCirclesArea(5, 10)); // 392.69908169872417
 
 // 5. Write a rockPaperScissors function that returns 1 if the first player won and 2 if the second player
 // won. In case of a draw, return 0.
