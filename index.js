@@ -81,8 +81,8 @@ console.log(draw);
 
 // Given a month as an integer from 1 to 12, return to which quarter of the year it belongs as an integer number.
 
-const month = 2;
-const quarterOf = (month) => {
+
+        function quarterOf(month) {
     if (month <= 3) {
         return 1;
     } else if (month <= 6) {
@@ -94,7 +94,8 @@ const quarterOf = (month) => {
     }
 
 }
-console.log(quarterOf(month));
+const quarter = quarterOf(12);
+console.log(quarter);
 
 const color = 'blue';
 const newColor = 'green';
