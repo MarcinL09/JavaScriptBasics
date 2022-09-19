@@ -97,22 +97,9 @@ console.log(draw);
 const quarter = quarterOf(12);
 console.log(quarter);
 
-const color = 'blue';
-const newColor = 'green';
-
-if (color === newColor) {
-    console.log('colors are the same');
-} else {
-    console.log('colors are not the same');
+// Mathematical approach.
+    function quarterOf(month) {
+    return Math.ceil(month/3);
 }
-
-const x = 50;
-const y = 100;
-
-if (x > y) {
-    console.log('x > y')
-} else if (x === y) {
-    console.log('x = y')
-} else {
-    console.log('x < y')
-}
+const quarterOfYear = quarterOf(9)
+console.log(quarterOfYear);
