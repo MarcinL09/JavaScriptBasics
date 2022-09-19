@@ -28,12 +28,12 @@ function isThisBoolean(isTrue){
         return false;
     }
 }
-const boolean1 = isThisBoolean(true); //true
+const boolean1 = isThisBoolean(true); // true
 console.log(boolean1);
 const boolean2 = isThisBoolean(false); // true
 console.log(boolean2);
 const boolean3 =isThisBoolean('true'); // false
-console.log(boolean3)
+console.log(boolean3);
 
 // 5. Implement the getCircleArea function
 function getCircleArea() {
