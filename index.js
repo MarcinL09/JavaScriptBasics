@@ -112,3 +112,22 @@ const width = 7;
 const height = 8;
 const area = width * height;
 console.log(area);
+
+// Create two variables called firstNumber and secondNumber . Assign each of them with a
+// different number. Write a program that swaps both values.
+
+let firstNumber = 4;
+let secondNumber = 9;
+const second = firstNumber;
+firstNumber = secondNumber;
+secondNumber = firstNumber;
+
+console.log(firstNumber);
+console.log(second);
+
+// Create variables that hold grades from three different classes:•
+// Physics•
+// Math•
+// English•
+// Calculate the average of the grades. If the average equals 4 out of 5 or higher, print "Good job!".
+//     Otherwise, print "Try harder!".
