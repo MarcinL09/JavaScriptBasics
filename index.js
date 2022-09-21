@@ -155,3 +155,12 @@ const tenHours = convertMinutesToHours(600);
 console.log(hours);
 console.log(fiveHours);
 console.log(tenHours);
+
+// Write the isTextUppercase function.
+isTextUppercase('Hello'); // false
+isTextUppercase('HELLO'); // true
+
+function isTextUppercase(text) {
+    return (text.toUpperCase = text);
+}
+return (text.toUpperCase = )
