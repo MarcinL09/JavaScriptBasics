@@ -131,3 +131,23 @@ console.log(second);
 // English•
 // Calculate the average of the grades. If the average equals 4 out of 5 or higher, print "Good job!".
 //     Otherwise, print "Try harder!".
+
+const physicsGrade = 4;
+const mathGrade = 5;
+const englishGrade = 2;
+const averageGrade = (physicsGrade + mathGrade + englishGrade)/3
+
+if (averageGrade >= 4) {
+    console.log('Good job');
+} else {
+    console.log('Try harder')
+}
+
+// Write the convertMinutesToHours function.
+
+function convertMinutesToHours(minutes) {
+    return minutes / 60;
+}
+
+const hours = convertMinutesToHours(75);
+const fiveHours = convertMinutesToHours(300);
