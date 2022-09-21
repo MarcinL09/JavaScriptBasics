@@ -151,3 +151,7 @@ function convertMinutesToHours(minutes) {
 
 const hours = convertMinutesToHours(75);
 const fiveHours = convertMinutesToHours(300);
+const tenHours = convertMinutesToHours(600);
+console.log(hours);
+console.log(fiveHours);
+console.log(tenHours);
