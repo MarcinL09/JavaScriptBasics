@@ -36,12 +36,11 @@ const boolean3 =isThisBoolean('true'); // false
 console.log(boolean3);
 
 // 5. Implement the getCircleArea function
-function getCircleArea() {
+function getCircleArea(radius) {
     return Math.PI * radius ** 2;
 }
-const radius = 5;
-const area = getCircleArea(radius);
-console.log(area); // 78.53981633974483
+const circleArea = getCircleArea(5);
+console.log(circleArea); // 78.53981633974483
 
 // 3. Implement the getCirclesAreaSum function that calls the getCircleArea function
 function getCirclesAreaSum() {
@@ -103,3 +102,13 @@ console.log(quarter);
 }
 const quarterOfYear = quarterOf(9)
 console.log(quarterOfYear);
+
+// Additional exercises
+
+// Create two variables called width and height . Then, create a new variable that holds the area.
+//     Print it to the console.
+
+const width = 7;
+const height = 8;
+const area = width * height;
+console.log(area);
