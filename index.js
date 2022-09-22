@@ -157,10 +157,21 @@ console.log(fiveHours);
 console.log(tenHours);
 
 // Write the isTextUppercase function.
-isTextUppercase('Hello'); // false
-isTextUppercase('HELLO'); // true
 
 function isTextUppercase(text) {
-    return (text.toUpperCase = text);
+  if (text.toUpperCase() === text) {
+      return true;
+  } else {
+      return false;
+  }
 }
-return (text.toUpperCase = )
+
+const lowerCase = isTextUppercase('Hello'); // false
+const upperCase = isTextUppercase('HELLO'); // true
+
+console.log(lowerCase);
+console.log(upperCase);
+
+
+
+
