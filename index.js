@@ -172,7 +172,7 @@ const upperCase = isTextUppercase('HELLO'); // true
 console.log(lowerCase);
 console.log(upperCase);
 
-// Create a function that checks if a number n is divisible by two numbers x AND y. All inputs are positive, non-zero numbers.
+//Codewars - Create a function that checks if a number n is divisible by two numbers x AND y. All inputs are positive, non-zero numbers.
 function isDivisible(n, x, y) {
     if (n % x === 0 && n % y === 0) {
         return true;
@@ -190,3 +190,16 @@ const divisibleExampleFour = isDivisible(12,7,5);
 console.log(divisibleExampleFour);
 
 
+// Write the getBillboardPrice function that accepts two arguments:•
+// the text intended to use on the billboard•
+// the cost of a single character
+function getBillboardPrice(text, cost) {
+    return (text + ' ' + cost * 12);
+}
+
+const billBoard = getBillboardPrice('Hello world!', 10); // 120
+const billBoardTwo = getBillboardPrice('Hello world!', 15); // 180
+const billBoardThree = getBillboardPrice('To be, or not to be', 20); // 380
+console.log(billBoard);
+console.log(billBoardTwo);
+console.log(billBoardThree);
