@@ -215,3 +215,22 @@ const numberTwo = oppositeInteger(14);
 console.log(numberTwo);
 const numberThree = oppositeInteger(8);
 console.log(numberThree);
+
+// In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
+function negativeInteger(num) {
+    if (num > 0) {
+        return (num * -1);
+    }
+    return num
+}
+
+const numOne = negativeInteger(1);
+console.log(numOne);
+const numTwo = negativeInteger(-5);
+console.log(numTwo);
+const numThree = negativeInteger(0);
+console.log(numThree);
+const numFour = negativeInteger(0.12);
+console.log(numFour);
+
+
