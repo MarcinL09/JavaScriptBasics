@@ -172,6 +172,21 @@ const upperCase = isTextUppercase('HELLO'); // true
 console.log(lowerCase);
 console.log(upperCase);
 
-
+// Create a function that checks if a number n is divisible by two numbers x AND y. All inputs are positive, non-zero numbers.
+function isDivisible(n, x, y) {
+    if (n % x === 0 && n % y === 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+const divisibleExampleOne = isDivisible(3,1,3);
+console.log(divisibleExampleOne);
+const divisibleExampleTwo = isDivisible(12,2,6);
+console.log(divisibleExampleTwo);
+const divisibleExampleThree = isDivisible(100,5,3);
+console.log(divisibleExampleThree);
+const divisibleExampleFour = isDivisible(12,7,5);
+console.log(divisibleExampleFour);
 
 
