@@ -197,9 +197,21 @@ function getBillboardPrice(text, cost) {
     return (text + ' ' + cost * 12);
 }
 
-const billBoard = getBillboardPrice('Hello world!', 10); // 120
-const billBoardTwo = getBillboardPrice('Hello world!', 15); // 180
-const billBoardThree = getBillboardPrice('To be, or not to be', 20); // 380
-console.log(billBoard);
-console.log(billBoardTwo);
-console.log(billBoardThree);
+const billboard = getBillboardPrice('Hello world!', 10); // 120
+const billboardTwo = getBillboardPrice('Hello world!', 15); // 180
+const billboardThree = getBillboardPrice('To be, or not to be', 20); // 380
+console.log(billboard);
+console.log(billboardTwo);
+console.log(billboardThree);
+
+// given an integer or a floating-point number, find its opposite.
+
+function oppositeInteger(number) {
+    return (-number);
+}
+const numberOne = oppositeInteger(1);
+console.log(numberOne);
+const numberTwo = oppositeInteger(14);
+console.log(numberTwo);
+const numberThree = oppositeInteger(8);
+console.log(numberThree);
