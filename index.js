@@ -277,7 +277,15 @@ function century(year) {
 }
     const whichCentury = century(1180)
     console.log(whichCentury);
-// 1705 --> 18
-// 1900 --> 19
-// 1601 --> 17
-// 2000 --> 20
+
+// Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+
+function even_or_odd(number) {
+    if (number % 2 === 0) {
+        return 'Even';
+    }
+    return 'Odd';
+}
+
+const checkEvenOdd = even_or_odd(6);
+console.log(checkEvenOdd);
