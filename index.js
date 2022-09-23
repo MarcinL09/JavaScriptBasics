@@ -242,3 +242,31 @@ function removeFirstAndLastChar(str){
 
 const removeString = removeFirstAndLastChar('Hello world')
 console.log(removeString);
+
+// Your task is to create a function that does four basic mathematical operations.
+//The function should take three arguments - operation(string/char), value1(number), value2(number).
+//     The function should return result of numbers after applying the chosen operation.
+// Examples(Operator, value1, value2) --> output
+
+function basicOp(operation, value1, value2)
+{
+    return (value1, operation, value2);
+}
+
+const result = basicOp( '+',4,7);
+console.log(result);
+const resultTwo = basicOp( '-',15,18);
+console.log(resultTwo);
+
+// Given a year, return the century it is in.
+
+function century(year) {
+    const x = Math.floor((year-1)/100) + 1;
+    return x;
+}
+    const whichCentury = century(1180)
+    console.log(whichCentury);
+// 1705 --> 18
+// 1900 --> 19
+// 1601 --> 17
+// 2000 --> 20
