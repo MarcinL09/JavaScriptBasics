@@ -303,3 +303,20 @@ function areYouPlayingBanjo(name) {
 
 const banjo = areYouPlayingBanjo('robert');
 console.log(banjo);
+
+// Calculate BMI
+function bmi(weight, height) {
+    let bmiResult = weight / height ** 2;
+    if (bmiResult <= 18.5) {
+        return "Underweight"
+    } else if (bmiResult <= 25.0) {
+        return "Normal"
+    } else if (bmiResult <= 30.0) {
+        return "Overweight"
+    } else {
+        return "Obese"
+    }
+}
+
+const bmiCal = bmi(60, 1.85);
+console.log(bmiCal)
