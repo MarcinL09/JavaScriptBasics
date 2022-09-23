@@ -259,7 +259,7 @@ function basicOp(operation, value1, value2) {
         return value1 / value2;
     }
 }
-// Use if(„+” === sign) to check what sign it is and then return.
+
 const result = basicOp('+',4,7);
 console.log(result);
 const resultTwo = basicOp( '-',15,18);
