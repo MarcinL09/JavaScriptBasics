@@ -120,10 +120,10 @@ let firstNumber = 4;
 let secondNumber = 9;
 const second = firstNumber;
 firstNumber = secondNumber;
-secondNumber = firstNumber;
+secondNumber = second;
 
 console.log(firstNumber);
-console.log(second);
+console.log(secondNumber);
 
 // Create variables that hold grades from three different classes:•
 // Physics•
