@@ -85,7 +85,7 @@ console.log(draw);
 // Given a month as an integer from 1 to 12, return to which quarter of the year it belongs as an integer number.
 
 
-        function quarterOf(month) {
+function quarterOf(month) {
     if (month <= 3) {
         return 1;
     } else if (month <= 6) {
@@ -101,7 +101,7 @@ const quarter = quarterOf(12);
 console.log(quarter);
 
 // Mathematical approach.
-    function whichQuarterOfTheYear(month) {
+function whichQuarterOfTheYear(month) {
     return Math.ceil(month/3);
 }
 const quarterOfTheYear = whichQuarterOfTheYear(9)
@@ -122,9 +122,9 @@ console.log(area);
 
 let firstNumber = 4;
 let secondNumber = 9;
-const second = firstNumber;
+const temporary = firstNumber;
 firstNumber = secondNumber;
-secondNumber = second;
+secondNumber = temporary;
 
 console.log(firstNumber);
 console.log(secondNumber);
