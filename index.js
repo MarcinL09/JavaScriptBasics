@@ -43,14 +43,18 @@ const circleArea = getCircleArea(5);
 console.log(circleArea); // 78.53981633974483
 
 // 3. Implement the getCirclesAreaSum function that calls the getCircleArea function
-function getCirclesAreaSum() {
-    function getCirclesArea(radiusFirst, radiusSecond) {
-    return Math.PI * radiusFirst ** 2 + Math.PI * radiusSecond ** 2;
-        }
-        return getCirclesArea;
+function getCirclesArea(radius) {
+    return Math.PI * radius ** 2;
+}
+const circleAreaOne = getCirclesArea(5);
+const circleAreaTwo = getCirclesArea(10);
+
+
+function getCirclesAreaSum(circleArea, circleAreaTwo) {
+    return circleArea + circleAreaTwo;
     }
-const getCirclesArea = getCirclesAreaSum();
-console.log(getCirclesArea(5, 10)); // 392.69908169872417
+const CirclesArea = getCirclesAreaSum(circleAreaOne,circleAreaTwo);
+console.log(CirclesArea) // 392.69908169872417
 
 // 5. Write a rockPaperScissors function that returns 1 if the first player won and 2 if the second player
 // won. In case of a draw, return 0.
