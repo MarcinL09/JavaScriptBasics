@@ -75,10 +75,10 @@ function rockPaperScissors(firstPlayer, secondPlayer) {
         return 0;
     }
 }
-const win1 = rockPaperScissors('rock', 'scissors'); // 1
-console.log(win1);
-const win2 = rockPaperScissors('rock', 'paper'); // 2
-console.log(win2);
+const winOne = rockPaperScissors('rock', 'scissors'); // 1
+console.log(winOne);
+const winTwo = rockPaperScissors('rock', 'paper'); // 2
+console.log(winTwo);
 const draw = rockPaperScissors('paper','paper'); // 0
 console.log(draw);
 
