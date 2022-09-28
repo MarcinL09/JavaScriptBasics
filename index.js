@@ -300,17 +300,16 @@ console.log(checkEvenOdd);
 
 function areYouPlayingBanjo(name) {
     if (name.toLowerCase().startsWith('r') || name.toUpperCase().startsWith('r')) {
-    return name + " plays banjo";
+        return name + " plays banjo";
     }
     return name + " does not play banjo";
-
 }
 
 const banjo = areYouPlayingBanjo('robert');
 console.log(banjo);
 
 // Calculate BMI
-function bmi(weight, height) {
+function bodyMassIndexCalculation(weight, height) {
     let bmiResult = weight / height ** 2;
     if (bmiResult <= 18.5) {
         return "Underweight"
@@ -318,11 +317,10 @@ function bmi(weight, height) {
         return "Normal"
     } else if (bmiResult <= 30.0) {
         return "Overweight"
-    } else {
-        return "Obese"
     }
+        return "Obese"
 }
 
-const bmiCal = bmi(60, 1.85);
-console.log(bmiCal)
+const bodyMassIndex = bodyMassIndexCalculation(60, 1.85);
+console.log(bodyMassIndex);
 
