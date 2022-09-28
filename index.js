@@ -198,7 +198,7 @@ console.log(divisibleExampleFour);
 // the text intended to use on the billboard•
 // the cost of a single character
 function getBillboardPrice(text, cost) {
-    return text + ' ' + cost * 12;
+    return text.length * cost;
 }
 
 const billboard = getBillboardPrice('Hello world!', 10); // 120
@@ -277,7 +277,6 @@ console.log(resultFour);
 
 function century(year) {
     return Math.ceil(year / 100);
-
 }
 
 const whichCentury = century(1300)
