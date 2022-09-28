@@ -28,12 +28,12 @@ function isThisBoolean(isTrue){
         return false;
     }
 }
-const boolean1 = isThisBoolean(true); // true
-console.log(boolean1);
-const boolean2 = isThisBoolean(false); // true
-console.log(boolean2);
-const boolean3 =isThisBoolean('true'); // false
-console.log(boolean3);
+const booleanOne = isThisBoolean(true); // true
+console.log(booleanOne);
+const booleanTwo = isThisBoolean(false); // true
+console.log(booleanTwo);
+const booleanThree =isThisBoolean('true'); // false
+console.log(booleanThree);
 
 // 5. Implement the getCircleArea function
 function getCircleArea(radius) {
@@ -320,3 +320,4 @@ function bmi(weight, height) {
 
 const bmiCal = bmi(60, 1.85);
 console.log(bmiCal)
+
