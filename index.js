@@ -198,7 +198,7 @@ console.log(divisibleExampleFour);
 // the text intended to use on the billboard•
 // the cost of a single character
 function getBillboardPrice(text, cost) {
-    return (text + ' ' + cost * 12);
+    return text + ' ' + cost * 12;
 }
 
 const billboard = getBillboardPrice('Hello world!', 10); // 120
@@ -211,7 +211,7 @@ console.log(billboardThree);
 // given an integer or a floating-point number, find its opposite.
 
 function oppositeInteger(number) {
-    return (-number);
+    return number * -1;
 }
 const numberOne = oppositeInteger(1);
 console.log(numberOne);
@@ -221,11 +221,11 @@ const numberThree = oppositeInteger(8);
 console.log(numberThree);
 
 // In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
-function negativeInteger(num) {
-    if (num > 0) {
-        return (num * -1);
+function negativeInteger(randomNumber) {
+    if (randomNumber > 0) {
+        return randomNumber * -1;
     }
-    return num
+    return randomNumber;
 }
 
 const numOne = negativeInteger(1);
