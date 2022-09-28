@@ -279,8 +279,9 @@ function century(year) {
     return Math.ceil(year / 100);
 
 }
-    const whichCentury = century(1300)
-    console.log(whichCentury);
+
+const whichCentury = century(1300)
+console.log(whichCentury);
 
 // Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 
