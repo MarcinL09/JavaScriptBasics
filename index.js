@@ -252,7 +252,7 @@ console.log(removeString);
 //     The function should return result of numbers after applying the chosen operation.
 // Examples(Operator, value1, value2) --> output
 
-function basicOp(operation, value1, value2) {
+function basicCalculation(operation, value1, value2) {
     if (operation === '+') {
     return value1 + value2;
     } else if (operation === '-') {
@@ -264,13 +264,13 @@ function basicOp(operation, value1, value2) {
     }
 }
 
-const result = basicOp('+',4,7);
+const result = basicCalculation('+',4,7);
 console.log(result);
-const resultTwo = basicOp( '-',15,18);
+const resultTwo = basicCalculation( '-',15,18);
 console.log(resultTwo);
-const resultThree = basicOp( '*',5,5);
+const resultThree = basicCalculation( '*',5,5);
 console.log(resultThree);
-const resultFour = basicOp( '/',49,7);
+const resultFour = basicCalculation( '/',49,7);
 console.log(resultFour);
 
 // Given a year, return the century it is in.
