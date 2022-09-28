@@ -101,11 +101,11 @@ const quarter = quarterOf(12);
 console.log(quarter);
 
 // Mathematical approach.
-    function quarterOf(month) {
+    function whichQuarterOfTheYear(month) {
     return Math.ceil(month/3);
 }
-const quarterOfYear = quarterOf(9)
-console.log(quarterOfYear);
+const quarterOfTheYear = whichQuarterOfTheYear(9)
+console.log(quarterOfTheYear);
 
 // Additional exercises
 
