@@ -254,7 +254,7 @@ console.log(removeString);
 
 function basicCalculation(operation, value1, value2) {
     if (operation === '+') {
-    return value1 + value2;
+        return value1 + value2;
     } else if (operation === '-') {
         return value1 - value2;
     } else if (operation === '*') {
@@ -317,7 +317,7 @@ function bodyMassIndexCalculation(weight, height) {
     } else if (bmiResult <= 30.0) {
         return "Overweight"
     }
-        return "Obese"
+    return "Obese"
 }
 
 const bodyMassIndex = bodyMassIndexCalculation(60, 1.85);
